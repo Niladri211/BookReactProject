@@ -1,0 +1,48 @@
+.navbar
+{
+    height: 10vh;
+    width: 100%;
+    background: darkblue;
+    display: flex;
+    & .logo , .links
+    {
+        height: 100%;
+    }
+
+    & .logo{
+        width: 20%;
+        /* background: yellow; */
+        display: grid;
+        place-items: center;
+        & img
+        {
+            width: 35%;
+            height: 75%;
+        };
+        
+        
+    }
+    & .links{
+        width: 80%;
+        /* background: aqua; */
+        & ul{
+
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            list-style: none;
+            margin-top: 3vh;
+            & a
+            {
+                text-decoration: none;
+                font-weight: bold;
+                color: white;
+            }
+            & a:hover{
+                text-decoration: underline;
+            }
+            
+        }
+    }
+
+}

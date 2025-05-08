@@ -1,0 +1,59 @@
+.addBooks{
+  & .header{
+      margin: auto;
+      background: linear-gradient(darkblue,white);
+      color: white; 
+
+      & h2{
+          margin-left: 40vw;
+      }
+  }
+
+  & .container{
+
+      width: 65vw;
+      height: 80vh;
+      background: linear-gradient( rgb(3, 3, 190) ,white , skyblue ) ;
+      border-radius: 10px;
+      margin: 3vh auto;
+
+
+      & .form-box{
+          /* width: 50vw;
+          height: 65vh;
+          background-color: brown;
+          margin: 2vh auto; */
+          margin: 1vh auto;
+
+          & form{
+              & input{
+                  width: 35vw;
+                  height: 6vh;
+                  margin: 1vh auto;
+                  margin-left: 15vw;
+                 border-radius: 10px;
+                 padding: 2vh;
+                 background: linear-gradient(skyblue , rgb(255, 255, 255));
+                 color: darkolivegreen;
+                 font-weight: bold;
+                 border: none;
+                 box-shadow: inset 0px 0px 10px ;
+
+
+              }
+
+               
+
+              & button{
+               width: 15vw;
+               height: 5vh;
+               border-radius: 10px;
+               border: none;
+               display: block;
+               margin: auto;
+               background-color: rgb(110, 154, 165);
+              }
+          }
+      }
+  }
+}

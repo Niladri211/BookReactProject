@@ -1,0 +1,49 @@
+.library-hero {
+    background-image: url('https://images.unsplash.com/photo-1519682577862-22b62b24e493') ;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    font-family: 'Georgia', serif;
+    color: white;
+  }
+  
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-content {
+    text-align: center;
+    max-width: 700px;
+    padding: 20px;
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .hero-content button {
+    padding: 12px 28px;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hero-content button:hover {
+    background-color: #d4a017;
+  }
